@@ -1,0 +1,39 @@
+*   {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: slategray;
+    color: #ffff66;
+}
+
+h1  {
+    text-align: center;
+    background-image: url("./wood-plank.jpg");
+}
+
+p.intro, li   {
+    font-size: 20px;
+    text-align: center;
+}
+
+a.head   {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h3 {
+      text-align: center;
+  }
+
+  p.foot, a.email {
+    text-decoration: none;
+    font-style: italic;
+    text-align: bottom;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }

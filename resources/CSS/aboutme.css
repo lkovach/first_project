@@ -1,0 +1,28 @@
+*   {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: slategray;
+    color: #ffff66;
+}
+
+h1  {
+    text-align: center;
+    background-image: url(./wood-plank.jpg);
+}
+
+p.personal, li   {
+    font-size: 20px;
+}
+
+.head, a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+p.foot {
+    text-decoration: none;
+    font-style: italic;
+    text-align: bottom;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
