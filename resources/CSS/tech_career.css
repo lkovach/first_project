@@ -1,0 +1,34 @@
+*   {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: #18f018;
+}
+
+a.head   {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.head button {
+    border: inset orangered;
+    padding: 5px 15px;
+    text-align: center;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.foot {
+    border: 5px inset transparent;
+    border-color: orangered;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    text-align: bottom;
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    padding: 5px 15px;
+}

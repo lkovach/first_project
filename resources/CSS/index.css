@@ -41,12 +41,15 @@ a.head   {
       text-align: center;
   }
 
-  p.foot, a.email {
+  p.foot {
+    border: 5px inset transparent;
+    border-color: darkolivegreen;
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
     text-align: bottom;
     position: absolute;
     bottom: 0;
-    width: 100%;
-  }
+    width: auto;
+    padding: 5px 5px;
+}
