@@ -14,9 +14,19 @@ p.personal, li   {
     font-size: 20px;
 }
 
-.head, a {
+.head a {
     text-decoration: none;
     font-style: italic;
+    background: darkolivegreen;
+}
+
+.head button {
+    background: darkolivegreen;
+    border: solid;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+    cursor: pointer;
 }
 
 p.foot {

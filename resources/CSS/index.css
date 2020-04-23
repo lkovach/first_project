@@ -20,6 +20,15 @@ a.head   {
     font-style: italic;
 }
 
+.head button {
+    background: darkolivegreen;
+    border: solid;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
 .center {
     display: block;
     margin-left: auto;
