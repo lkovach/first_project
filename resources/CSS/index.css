@@ -42,6 +42,7 @@ a.head   {
   p.foot, a.email {
     text-decoration: none;
     font-style: italic;
+    font-weight: bold;
     text-align: bottom;
     position: absolute;
     bottom: 0;

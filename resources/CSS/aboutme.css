@@ -32,6 +32,7 @@ p.personal, li   {
 p.foot {
     text-decoration: none;
     font-style: italic;
+    font-weight: bold;
     text-align: bottom;
     position: absolute;
     bottom: 0;
