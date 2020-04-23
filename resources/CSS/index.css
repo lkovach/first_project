@@ -18,15 +18,17 @@ p.intro, li   {
 a.head   {
     text-decoration: none;
     font-style: italic;
+    font-size: 18px;
 }
 
 .head button {
-    background: darkolivegreen;
-    border: solid;
-    border-radius: 5px;
+    border: inset darkolivegreen;
     padding: 5px 15px;
     text-align: center;
     cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .center {

@@ -21,20 +21,24 @@ p.personal, li   {
 }
 
 .head button {
-    background: darkolivegreen;
-    border: solid;
-    border-radius: 5px;
+    border: inset darkolivegreen;
     padding: 5px 15px;
     text-align: center;
     cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 p.foot {
+    border: 5px inset transparent;
+    border-color: darkolivegreen;
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
     text-align: bottom;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: auto;
+    padding: 5px 5px;
 }
