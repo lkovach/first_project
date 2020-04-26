@@ -7,21 +7,25 @@
 }
 
 h1  {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 p.intro, li   {
+    display: flex;
     font-size: 20px;
     text-align: center;
 }
 
 a.head   {
+    display: inline-flex;
     text-decoration: none;
     font-style: italic;
     font-size: 18px;
 }
 
 .head button {
+    display: inline-flex;
     border: inset darkolivegreen;
     padding: 5px 15px;
     text-align: center;
@@ -38,18 +42,20 @@ a.head   {
   }
 
   h3 {
+      display: flex;
       text-align: center;
   }
 
   p.foot {
+    display: flex;
+    align-items: flex-end;
     border: 5px inset transparent;
     border-color: darkolivegreen;
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
-    text-align: bottom;
-    position: absolute;
     bottom: 0;
     width: auto;
+    position: absolute;
     padding: 5px 5px;
 }
