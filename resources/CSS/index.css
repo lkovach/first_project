@@ -54,8 +54,7 @@ a.head   {
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
-    bottom: 0;
-    width: auto;
-    position: absolute;
+    position: relative;
+    top: 175px;
     padding: 5px 5px;
 }
