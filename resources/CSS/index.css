@@ -42,8 +42,8 @@ a.head   {
   }
 
   h3 {
-      display: flex;
-      text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   p.foot {
