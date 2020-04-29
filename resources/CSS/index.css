@@ -14,7 +14,7 @@ h1  {
 p.intro, li   {
     display: flex;
     font-size: 20px;
-    text-align: center;
+    justify-content: center;
 }
 
 a.head   {
@@ -28,7 +28,7 @@ a.head   {
     display: inline-flex;
     border: inset darkolivegreen;
     padding: 5px 15px;
-    text-align: center;
+    justify-content: center;
     cursor: pointer;
     font-style: italic;
     font-weight: bold;
@@ -47,14 +47,14 @@ a.head   {
   }
 
   p.foot {
-    display: flex;
-    align-items: flex-end;
     border: 5px inset transparent;
     border-color: darkolivegreen;
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
-    position: relative;
-    top: 175px;
+    text-align: bottom;
+    position: absolute;
+    bottom: 0;
+    width: auto;
     padding: 5px 5px;
 }
