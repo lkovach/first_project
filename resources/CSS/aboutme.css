@@ -1,39 +1,28 @@
 *   {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: slategray;
-    color: #ffff66;
-    background: url(./wood-plank2.jpg) no-repeat center fixed;
-    background-size: cover;
+    font-family: monospace;
+    background-color: black;
+    color: #18f018;
+    font-size: 16px;
 }
 
 h1  {
     text-align: center;
+    font-size: 2rem;
 }
 
 p.personal, li   {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-.head a {
+nav a {
+    display: inline-flex;
     text-decoration: none;
-    font-style: italic;
-    background: darkolivegreen;
-}
-
-.head button {
-    border: inset darkolivegreen;
-    padding: 5px 15px;
-    text-align: center;
-    cursor: pointer;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 1.125rem;
 }
 
 p.foot {
     border: 5px inset transparent;
     border-color: darkolivegreen;
-    text-decoration: none;
     font-style: italic;
     font-weight: bold;
     text-align: bottom;
@@ -41,4 +30,8 @@ p.foot {
     bottom: 0;
     width: auto;
     padding: 5px 5px;
+}
+
+p a {
+    text-decoration: none;
 }
