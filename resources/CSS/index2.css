@@ -1,26 +1,27 @@
-*   {
+* {
+    background-image: linear-gradient(black, gray);
+    background-attachment: fixed;
+}
+
+body {
     font-family: monospace;
     color: #18f018;
     font-size: 16px;
 }
 
-body {
-    background-image: linear-gradient(black, gray);
-}
-
-h1  {
+h1 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
 }
 
-p.intro, li   {
+p.intro {
     display: flex;
     font-size: 1.25rem;
     justify-content: center;
 }
 
-a.head   {
+a.head {
     display: inline-flex;
     text-decoration: none;
     font-size: 1.125rem;
@@ -38,17 +39,16 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  h3 {
+h3 {
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
-  }
+}
 
-  p.foot {
+p.foot {
     /*background-color: black;*/
-    background-image: linear-gradient(black,gray);
     border: 5px inset transparent;
     border-color: darkolivegreen;
     font-style: italic;
