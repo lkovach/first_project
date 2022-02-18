@@ -1,0 +1,65 @@
+* {
+    background-image: linear-gradient(black, gray);
+    background-attachment: fixed;
+}
+
+body {
+    font-family: monospace;
+    color: #18f018;
+    font-size: 16px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+p.intro {
+    display: flex;
+    font-size: 1.25rem;
+    justify-content: center;
+}
+
+a.head {
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+
+a:link, a:visited {
+    color: #18f018;
+}
+
+a:hover {
+    color: #ff9933;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+p.foot {
+    /*background-color: black;*/
+    border: 5px inset transparent;
+    border-color: darkolivegreen;
+    font-style: italic;
+    font-weight: bold;
+    text-align: bottom;
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    padding: 5px 5px;
+}
+
+p a {
+    text-decoration: none;
+}
